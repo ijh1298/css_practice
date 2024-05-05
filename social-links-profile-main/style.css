@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "a";
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+    width: 350px;
+    height: 520px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.profile h2 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 25px;
+    font-family: "a";
+}
+
+.profile p:nth-child(2) {
+    color: hsl(75, 94%, 57%);
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 8px;
+    font-family: "a";
+}
+
+.profile p:last-child {
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    font-family: "a";
+    font-size: 0.9rem;
+}
+
+.homepage {
+    margin-top: 15px;
+}
+
+.homepage * {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+    font-family: "a";
+    font-weight: bold;
+    font-size: 0.85rem;
+    width: 280px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.
